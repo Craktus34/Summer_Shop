@@ -1,0 +1,149 @@
+html {
+    height: 100%;
+}
+
+body {
+	color: #ffffff;
+    height: 100%;.
+    width: 100%;
+    font-family: monospace;
+    margin: 0;
+    border: 0;
+}
+
+nav {
+	position: absolute;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 100%;
+	height: 60px;
+	opacity: 0.5;
+	background-color: red;
+	font-size: 20px;
+	margin: auto;
+}
+
+nav > a {
+	margin: 10px;
+	color: #ffffff;
+	text-decoration: none;
+}
+
+.searchBar {
+	cursor: pointer;
+	color: #ffffff;
+	font-size: 20px;
+	margin-right: 20%;
+	height: 30px;
+	width: 500px;
+	border: none;
+	background-color: transparent;
+	transition: all .5s;
+}
+
+.searchBar:focus {
+	cursor: text;
+	opacity: 1;
+	border: solid 1px #ccc;
+	transition: all .8s;
+}
+
+main {
+	margin: 0;
+	width: 100%;
+	min-height: 710px; 
+	background-image: url(img/main_bg.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	display: flex;
+	align-items: center;
+}
+
+main > div {
+	padding: 5px;
+	font-size: 30px;
+	margin: auto;
+	width: 800px;
+	height: 400px;
+}
+
+main > div > a {
+	color: #ffffff;
+	background-color: #5b5b5b;
+	padding: 20px;
+	font-size: 20px;
+	border-radius: 30px;
+	text-decoration: none;
+}
+
+.bottom_windows {
+	margin: 0;
+	width: 100%;
+	display: inline-flex;
+	align-items: center;
+	bottom: 0;
+	background-color: gray;
+	height: 280px;
+}
+
+section > div {
+	font-size: 20px;
+	float: left;
+	height: 100%;
+	min-width: 33.33%;
+	text-decoration: none;
+}
+
+section > #window1 {
+	background-image: url(img/w1.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	display: flex;
+	justify-content: center;
+	text-align: center;
+}
+
+section > div > .win_content1 {
+	margin: auto;
+}
+
+section > #window2 {
+	background-image: url(img/w2.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	display: flex;
+	justify-content: center;
+	text-align: left;
+}
+
+section > div > .win_content2 {
+	margin: auto;
+}
+
+section > #window3 {
+	background-image: url(img/w3.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	display: flex;
+	justify-content: center;
+	text-align: right;
+}
+
+section > div > .win_content3 {
+	margin: auto;
+}
+
+section > div > div >a {
+	text-decoration: none;
+	border: solid 2px;
+	border-color: green;
+	background-color: grey;
+	border-radius: 20px;
+	color: white;
+	font-size: 15px;
+	padding-left: 15px;
+	padding-right: 15px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
